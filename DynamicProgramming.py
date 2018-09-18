@@ -123,6 +123,10 @@ class Solution486(object):
                 dp[i][j] = max(nums[i] - score_right, nums[j] - score_left)
         return dp[0][N-1] >= 0
 
+# Leecode 
+
+
+
 # Nowcoder: https://www.nowcoder.com/question/next?pid=6910869&qid=126953&tid=17260778
 def min_sum(N, nums):
     dp = [[0]*N for i in range(N)]
@@ -149,3 +153,5 @@ if __name__ == '__main__':
         print(0)
     else:
         print(min_sum(N, nums))
+
+
