@@ -127,6 +127,10 @@ class Solution486(object):
 
 
 
+# Leecode 
+
+
+
 # Nowcoder: https://www.nowcoder.com/question/next?pid=6910869&qid=126953&tid=17260778
 def min_sum(N, nums):
     dp = [[0]*N for i in range(N)]
